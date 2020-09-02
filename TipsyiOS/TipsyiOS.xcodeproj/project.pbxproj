@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		449470CA24FF8705007DCBF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449470C924FF8705007DCBF3 /* AppDelegate.swift */; };
+		449470CC24FF8705007DCBF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449470CB24FF8705007DCBF3 /* SceneDelegate.swift */; };
+		449470CE24FF8705007DCBF3 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449470CD24FF8705007DCBF3 /* CalculatorViewController.swift */; };
+		449470D124FF8705007DCBF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449470CF24FF8705007DCBF3 /* Main.storyboard */; };
+		449470D324FF8706007DCBF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449470D224FF8706007DCBF3 /* Assets.xcassets */; };
+		449470D624FF8706007DCBF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449470D424FF8706007DCBF3 /* LaunchScreen.storyboard */; };
+		AB0B379B055705FA1C72B3F1 /* Pods_TipsyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426D80F87834BF265DAF3A80 /* Pods_TipsyiOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		426D80F87834BF265DAF3A80 /* Pods_TipsyiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipsyiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		449470C624FF8705007DCBF3 /* TipsyiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipsyiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		449470C924FF8705007DCBF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		449470CB24FF8705007DCBF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		449470CD24FF8705007DCBF3 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		449470D024FF8705007DCBF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		449470D224FF8706007DCBF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		449470D524FF8706007DCBF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		449470D724FF8706007DCBF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E23938B48C89C685377CDC4 /* Pods-TipsyiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipsyiOS.release.xcconfig"; path = "Target Support Files/Pods-TipsyiOS/Pods-TipsyiOS.release.xcconfig"; sourceTree = "<group>"; };
+		6A236702247E3BC3D7AC8D20 /* Pods-TipsyiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipsyiOS.debug.xcconfig"; path = "Target Support Files/Pods-TipsyiOS/Pods-TipsyiOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		449470C324FF8705007DCBF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0B379B055705FA1C72B3F1 /* Pods_TipsyiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E28EAA12243A0B10FF62B17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				426D80F87834BF265DAF3A80 /* Pods_TipsyiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		449470BD24FF8705007DCBF3 = {
+			isa = PBXGroup;
+			children = (
+				449470C824FF8705007DCBF3 /* TipsyiOS */,
+				449470C724FF8705007DCBF3 /* Products */,
+				7D488C8DBDE5D1C50B179058 /* Pods */,
+				3E28EAA12243A0B10FF62B17 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		449470C724FF8705007DCBF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				449470C624FF8705007DCBF3 /* TipsyiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		449470C824FF8705007DCBF3 /* TipsyiOS */ = {
+			isa = PBXGroup;
+			children = (
+				449470C924FF8705007DCBF3 /* AppDelegate.swift */,
+				449470CB24FF8705007DCBF3 /* SceneDelegate.swift */,
+				449470CD24FF8705007DCBF3 /* CalculatorViewController.swift */,
+				449470CF24FF8705007DCBF3 /* Main.storyboard */,
+				449470D224FF8706007DCBF3 /* Assets.xcassets */,
+				449470D424FF8706007DCBF3 /* LaunchScreen.storyboard */,
+				449470D724FF8706007DCBF3 /* Info.plist */,
+			);
+			path = TipsyiOS;
+			sourceTree = "<group>";
+		};
+		7D488C8DBDE5D1C50B179058 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A236702247E3BC3D7AC8D20 /* Pods-TipsyiOS.debug.xcconfig */,
+				4E23938B48C89C685377CDC4 /* Pods-TipsyiOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		449470C524FF8705007DCBF3 /* TipsyiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449470DA24FF8706007DCBF3 /* Build configuration list for PBXNativeTarget "TipsyiOS" */;
+			buildPhases = (
+				5FFDCD8A8647A04A2CD6D499 /* [CP] Check Pods Manifest.lock */,
+				58B421644C919D12E70541C5 /* [CP-User] Run Flutter Build result_module Script */,
+				449470C224FF8705007DCBF3 /* Sources */,
+				449470C324FF8705007DCBF3 /* Frameworks */,
+				449470C424FF8705007DCBF3 /* Resources */,
+				E36F40FA2E1FDBCB935C76CF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TipsyiOS;
+			productName = TipsyiOS;
+			productReference = 449470C624FF8705007DCBF3 /* TipsyiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		449470BE24FF8705007DCBF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Souvik Biswas";
+				TargetAttributes = {
+					449470C524FF8705007DCBF3 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 449470C124FF8705007DCBF3 /* Build configuration list for PBXProject "TipsyiOS" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 449470BD24FF8705007DCBF3;
+			productRefGroup = 449470C724FF8705007DCBF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				449470C524FF8705007DCBF3 /* TipsyiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		449470C424FF8705007DCBF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449470D624FF8706007DCBF3 /* LaunchScreen.storyboard in Resources */,
+				449470D324FF8706007DCBF3 /* Assets.xcassets in Resources */,
+				449470D124FF8705007DCBF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58B421644C919D12E70541C5 /* [CP-User] Run Flutter Build result_module Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../result_module/.metadata",
+				"${SRCROOT}/../result_module/.ios/Flutter/App.framework/App",
+				"${SRCROOT}/../result_module/.ios/Flutter/engine/Flutter.framework/Flutter",
+				"${SRCROOT}/../result_module/.ios/Flutter/flutter_export_environment.sh",
+			);
+			name = "[CP-User] Run Flutter Build result_module Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../result_module/.ios/Flutter/flutter_export_environment.sh\"\n\"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		5FFDCD8A8647A04A2CD6D499 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TipsyiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E36F40FA2E1FDBCB935C76CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TipsyiOS/Pods-TipsyiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TipsyiOS/Pods-TipsyiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TipsyiOS/Pods-TipsyiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		449470C224FF8705007DCBF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449470CE24FF8705007DCBF3 /* CalculatorViewController.swift in Sources */,
+				449470CA24FF8705007DCBF3 /* AppDelegate.swift in Sources */,
+				449470CC24FF8705007DCBF3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		449470CF24FF8705007DCBF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				449470D024FF8705007DCBF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		449470D424FF8706007DCBF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				449470D524FF8706007DCBF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		449470D824FF8706007DCBF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FLUTTER_ROOT = "/Users/souvikbiswas/Mobile Apps/development/flutter";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		449470D924FF8706007DCBF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FLUTTER_ROOT = "/Users/souvikbiswas/Mobile Apps/development/flutter";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		449470DB24FF8706007DCBF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A236702247E3BC3D7AC8D20 /* Pods-TipsyiOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJ48SZA38U;
+				INFOPLIST_FILE = TipsyiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.souvikbiswas.TipsyiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		449470DC24FF8706007DCBF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E23938B48C89C685377CDC4 /* Pods-TipsyiOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJ48SZA38U;
+				INFOPLIST_FILE = TipsyiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.souvikbiswas.TipsyiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		449470C124FF8705007DCBF3 /* Build configuration list for PBXProject "TipsyiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449470D824FF8706007DCBF3 /* Debug */,
+				449470D924FF8706007DCBF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449470DA24FF8706007DCBF3 /* Build configuration list for PBXNativeTarget "TipsyiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449470DB24FF8706007DCBF3 /* Debug */,
+				449470DC24FF8706007DCBF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 449470BE24FF8705007DCBF3 /* Project object */;
+}

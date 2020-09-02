@@ -68,6 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
+        bottom: false,
         child: Container(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
@@ -113,8 +114,8 @@ class _MyHomePageState extends State<MyHomePage> {
                           ),
                         ),
                       ),
-                      Align(
-                        alignment: Alignment.bottomCenter,
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 20.0),
                         child: Container(
                           width: double.maxFinite,
                           child: RaisedButton(

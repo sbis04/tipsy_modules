@@ -4,7 +4,7 @@ apply plugin: 'kotlin-android-extensions'
 
 repositories {
     maven {
-        url '/Users/souvikbiswas/Mobile Apps/Android Project/result_module/build/host/outputs/repo'
+        url '/Users/souvikbiswas/Mobile Apps/Modules/result_module/build/host/outputs/repo'
     }
     maven {
         url 'https://storage.googleapis.com/download.flutter.io'
