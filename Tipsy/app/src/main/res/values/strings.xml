@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tipsy</string>
+    <string name="total_bill">Enter total bill</string>
+    <string name="bill_hint">eg. 140.23</string>
+    <string name="select_tip">Select tip</string>
+    <string name="percent_10">10%</string>
+    <string name="percent_0">0%</string>
+    <string name="percent_20">20%</string>
+    <string name="choose_split">Choose split</string>
+    <string name="minus_text">-</string>
+    <string name="plus_text">+</string>
+    <string name="initial_split">2</string>
+    <string name="calculate_button">Calculate</string>
+</resources>
