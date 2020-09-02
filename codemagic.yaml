@@ -10,8 +10,8 @@ workflows:
                 HOST_ANDROID_APP_DIR: "Tipsy"
             flutter: stable
         scripts:
-            - echo "sdk.dir=$HOME/programs/android-sdk-macosx" > "$FCI_BUILD_DIR/$HOST_ANDROID_APP_DIR/local.properties"
-            - cd $FLUTTER_MODULE_DIR && flutter pub get
-            - cd $HOST_ANDROID_APP_DIR && ./gradlew assembleDebug
+            - echo "flutter.sdk=$HOME/programs/flutter" > "$FCI_BUILD_DIR/result_module/.android/local.properties"
+            - cd $FCI_BUILD_DIR/result_module && flutter packages pub get
+            - cd $FCI_BUILD_DIR/Tipsy && ./gradlew assembleDebug
         artifacts:
-            - $HOST_ANDROID_APP_DIR/app/build/outputs/**/*.apk
+            - Tipsy/app/build/**/outputs/**/*.apk
