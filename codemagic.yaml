@@ -1,0 +1,17 @@
+# Check out https://docs.codemagic.io/yaml/yaml/ for more information
+# Please review and update values in curly braces
+
+workflows:
+    android-flutter:
+        name: Android App with Flutter Module
+        environment:
+            vars:
+                FLUTTER_MODULE_DIR: "result_module"
+                HOST_ANDROID_APP_DIR: "Tipsy"
+            flutter: stable
+        scripts:
+            - echo "sdk.dir=$HOME/programs/android-sdk-macosx" > "$FCI_BUILD_DIR/$HOST_ANDROID_APP_DIR/local.properties"
+            - cd $FLUTTER_MODULE_DIR && flutter pub get
+            - cd $HOST_ANDROID_APP_DIR && ./gradlew assembleDebug
+        artifacts:
+            - $HOST_ANDROID_APP_DIR/app/build/outputs/**/*.apk
