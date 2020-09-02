@@ -19,6 +19,8 @@ private const val CHANNEL = "com.souvikbiswas.tipsy/result"
 
 class MainActivity : AppCompatActivity() {
 
+    lateinit var flutterEngine: FlutterEngine
+
     // Defining views
     private lateinit var billTextField: TextView
 
@@ -40,7 +42,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val flutterEngine = FlutterEngine(this)
+        flutterEngine = FlutterEngine(this)
 
         flutterEngine.dartExecutor.executeDartEntrypoint(
             DartExecutor.DartEntrypoint.createDefault()
@@ -52,10 +54,10 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_main)
 
-        addViewFunctionality(flutterEngine)
+        addViewFunctionality()
     }
 
-    private fun addViewFunctionality(flutterEngine: FlutterEngine) {
+    private fun addViewFunctionality() {
 
         // Initializing views
         billTextField = bill_text_field

@@ -10,6 +10,8 @@ import UIKit
 import Flutter
 
 class CalculatorViewController: UIViewController {
+    
+    let channel: String = "com.souvikbiswas.tipsy/result"
 
     @IBOutlet weak var billTextField: UITextField!
     @IBOutlet weak var zeroPctButton: UIButton!
@@ -62,7 +64,7 @@ class CalculatorViewController: UIViewController {
         let flutterViewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil);
         self.present(flutterViewController, animated: true, completion: nil)
         
-        let resultDataChannel = FlutterMethodChannel(name: "com.souvikbiswas.tipsy/result", binaryMessenger: flutterViewController.binaryMessenger)
+        let resultDataChannel = FlutterMethodChannel(name: channel, binaryMessenger: flutterViewController.binaryMessenger)
         
         let jsonObject: NSMutableDictionary = NSMutableDictionary()
 
